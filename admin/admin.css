@@ -1,0 +1,44 @@
+
+body{background:radial-gradient(circle at top left,rgba(37,99,235,.12),transparent 34%),linear-gradient(180deg,#f7fbff 0%,#f3f7fc 55%,#ffffff 100%)!important}
+.top{background:rgba(255,255,255,.9)!important;backdrop-filter:blur(16px)!important;border-bottom:1px solid rgba(17,24,39,.08)!important;box-shadow:0 10px 32px rgba(17,24,39,.04)!important}
+.top__row,.row{padding-top:14px!important;padding-bottom:14px!important}
+.brand{font-size:20px!important;letter-spacing:-.03em}
+.nav .tab{border-radius:14px!important;background:#fff!important;border:1px solid rgba(17,24,39,.08)!important;box-shadow:0 10px 24px rgba(15,23,42,.04)!important}
+.nav .tab.is-active{background:linear-gradient(135deg,#2563eb,#60a5fa)!important;color:#fff!important;border-color:transparent!important;box-shadow:0 14px 28px rgba(37,99,235,.20)!important}
+.hero{padding:24px 28px!important;border-radius:28px!important;background:linear-gradient(135deg,#fff 0%,#f7fbff 54%,#edf4ff 100%)!important;border:1px solid rgba(17,24,39,.08)!important;box-shadow:0 18px 48px rgba(15,23,42,.06)!important;margin-bottom:20px!important}
+.hero h1{letter-spacing:-.05em!important}
+.stats{gap:14px!important}
+.stat{border-radius:22px!important;box-shadow:0 14px 34px rgba(15,23,42,.05)!important;transition:.18s ease}
+.stat:hover{transform:translateY(-2px);box-shadow:0 18px 40px rgba(15,23,42,.08)!important}
+.stat b{font-size:30px!important}
+.toolbar .search{border-radius:22px!important;padding:14px!important;box-shadow:0 12px 30px rgba(15,23,42,.05)!important}
+.card,.panel,.events,.loginBox{border-radius:26px!important;border:1px solid rgba(17,24,39,.08)!important;box-shadow:0 18px 46px rgba(15,23,42,.06)!important}
+.cardHead b{letter-spacing:-.03em}
+.card:before{width:7px!important}
+.btn,.tab{font-weight:900!important}
+.btn.save,.save{background:linear-gradient(135deg,#111827,#1f2937)!important;color:#fff!important;border-color:transparent!important}
+.btn.delete,.delete{background:rgba(220,38,38,.10)!important;color:#b91c1c!important}
+.btn.soft,.soft{background:#fff!important;border:1px solid rgba(17,24,39,.09)!important;color:#111827!important}
+input,select,textarea{border-radius:14px!important;padding:12px 14px!important;border-color:rgba(17,24,39,.10)!important}
+input:focus,select:focus,textarea:focus{outline:none!important;box-shadow:0 0 0 4px rgba(37,99,235,.10)!important;border-color:rgba(37,99,235,.38)!important}
+textarea{resize:none!important}
+.notice{border-radius:18px!important}
+.badge{padding:8px 12px!important}
+.loginBox{background:#fff!important;padding:30px!important}
+.loginBox h1,.loginBox h2{letter-spacing:-.04em}
+.empty{background:#fff!important}
+@media(max-width:760px){.hero{padding:20px!important}.nav .tab{width:100%;justify-content:center!important}.stats{grid-template-columns:1fr 1fr!important}}
+
+textarea{resize:none!important;}
+
+/* FIX: кнопка назад на странице редактирования заявки должна быть читаемой */
+.nav .tab.primary,
+.nav a.tab.primary{
+  background:linear-gradient(135deg,#2563eb,#60a5fa)!important;
+  border-color:transparent!important;
+  color:#ffffff!important;
+  box-shadow:0 14px 28px rgba(37,99,235,.20)!important;
+  white-space:nowrap!important;
+}
+.nav .tab.primary:visited,
+.nav a.tab.primary:visited{color:#ffffff!important}
